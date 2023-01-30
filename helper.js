@@ -1,4 +1,2 @@
-const $ = (elem) => document.getElementById(elem);
-const on = (elem, fn, callback) => elem.addEventListener(fn, callback);
-
-export {$, on};
+export const $ = (elem) => document.getElementById(elem);
+export const on = (elem, fn, callback) => elem.addEventListener(fn, callback);
